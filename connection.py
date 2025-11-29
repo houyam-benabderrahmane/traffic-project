@@ -3,8 +3,8 @@ import socket  # For ESP32 communication
 from ultralytics import YOLO
 
 # ESP32 IP address and Port 
-ESP32_IP = "192.168.19.149"  # <<< Replace with your ESP32's IP
-ESP32_PORT = 1234             # <<< Use the same port number on ESP32 server
+ESP32_IP = ""  # <<< Replace with your ESP32's IP
+ESP32_PORT =            # <<< Use the same port number on ESP32 server
 
 # Create a socket connection to ESP32
 esp32_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
